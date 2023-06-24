@@ -1,8 +1,4 @@
-# Test First Cycle 1
-def multiply(x, y):
-    return x * y
-
-
-# it passed
+# Test First TDD Cycle 2
 def test():
-    assert multiply(1, 1) == 1
+    assert multiply(4, 4) == 16
+    #it failed, multiply isnt defined
