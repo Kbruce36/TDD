@@ -1,7 +1,9 @@
-# Test First TDD Cycle 5
-def multiply(x, y):
-    return x * y
+# test slightly bigger equation
 
 
-def test():
-    assert multiply(23, 45) == 23 * 45
+def circle_area(radius):
+    return 3.142 * radius**2
+
+
+def test_area():
+    assert circle_area(4) == 50.272
