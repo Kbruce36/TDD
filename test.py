@@ -1,7 +1,7 @@
-# Test First TDD Cycle 3
+# Test First TDD Cycle 5
 def multiply(x, y):
     return x * y
 
 
 def test():
-    assert multiply(7, 5) == 35
+    assert multiply(23, 45) == 23 * 45
